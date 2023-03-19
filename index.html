@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Bakery Website</title>
+<style>
+.button {
+	background-color: white;
+	bottom-border: 1px;
+	border: none;
+	text-decoration: none;
+}
+
+.button a{
+	color: black;
+	background: #FDDDE6;
+	padding: 10px 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	position:relative;
+	transition: border-bottom 0.3s;
+		
+}
+/*.button a::after{
+	content:'';
+	width:0;
+	height:3px;
+	position:absolute;
+	bottom:-5px;
+	left:50%;
+	transform: translateX(-50%);
+	background: red;
+	transition: width 0.3s;
+}
+.button a:hover::after{
+	width:60%;
+}*/
+.button a:hover{
+	background: red;
+	color: white;
+}
+</style>
+</head>
+<body>
+<h1 align="middle" style="color:red; font-size:55px; font-family:Lucida Calligraphy">Delicious</h1> 
+<h5><p align="center">Make your world more sweeter<br> Eat, Share and Celebrate</p></h5>
+<p><hr><marquee scrollamount=10 style="color:red;"><b>All varieties of bakery items and desserts are available for all 
+occasions. We also deliver at your door step.</b></marquee><hr>
+</p>
+<div class="buttons">
+<button class="button"><a href="home.html" target="pages">Home</a></button> 
+<button class="button"><a href="about us 2.html" target="pages">About Us</a></button>
+<button class="button"><a href="items.html" target="pages">Items</a></button>
+<button class="button"><a href="orders.html" target="pages">Orders</a></button>
+<button class="button"><a href="contact us.html" target="pages">Contact Us</a></button>
+<button class="button"><a href="account.html" target="pages">Login/SignUp</a></button>
+<button class="button"><a href="help.html" target="pages">Help</a></button>
+<p align="left"><iframe src="home.html" name="pages" width=100% height=80%></iframe> </p>
+</div>
+</body>
+</html>
